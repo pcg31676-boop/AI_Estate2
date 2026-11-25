@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Estate | Property Valuation & Photo Analysis</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏠</text></svg>">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #0F172A;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    #app-frame {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+    .fallback-card {
+      display: none;
+      max-width: 500px;
+      margin: 100px auto;
+      padding: 30px;
+      background: #1E293B;
+      border-radius: 16px;
+      color: #FFFFFF;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    }
+    .fallback-card a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #3B82F6;
+      color: #FFFFFF;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <iframe id="app-frame" src="https://cute-oranges-camp.loca.lt" allow="camera; geolocation" allowfullscreen></iframe>
+  <div class="fallback-card" id="fallback">
+    <h2>🏠 AI Estate Valuation</h2>
+    <p style="margin-top: 10px; color: #94A3B8;">Click below to launch the live Streamlit platform:</p>
+    <a href="https://cute-oranges-camp.loca.lt" target="_blank">Open Application</a>
+  </div>
+</body>
+</html>
